@@ -221,3 +221,93 @@ h2 {
 .skills-container p {
     line-height: 25px;
 }
+
+/* Links */
+
+#links {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#links h2 {
+    color: rgb(0, 38, 66);
+    margin-bottom: 30px;
+}
+
+#links p {
+    margin-bottom: 50px;
+}
+
+#Links a {
+    font-weight: bold;
+    color: rgb(0, 38, 66);
+}
+
+#links-fotos {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+#links-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: rgb(0, 38, 66);
+    box-shadow: 2px 2px 4px;
+    -webkit-transition: all 0.5s ease-in;
+}
+
+#links-fotos li a div span {
+    opacity: 0;
+    color: black;
+    text-shadow: 2px, 2px, 4px white;
+    background-color: rgb(0, 38, 66);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+#links-fotos li:hover {
+    -webkit-transform: scale(1.5);
+}
+
+#links-fotos li:hover a div span {
+    opacity: 1;
+}
+
+#links-fotos #Foto01 {
+    background: url('../fotos/proj1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+#links-fotos #Foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#links-fotos #Foto02 {
+    background: url('../fotos/proj2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+#links-fotos #Foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#links-fotos #Foto03 {
+    background: url('../fotos/proj3.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+#links-fotos #Foto03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
