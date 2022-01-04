@@ -124,3 +124,56 @@ h2 {
 .banner-container p {
     line-height: 25px;
 }
+
+/* About */
+
+#about {
+    text-align: center;
+    background-color: rgb(0, 38, 66);
+    color: white;
+    padding: 50px;
+    height: 520px;
+}
+
+#about h2 {
+    margin-bottom: 30px;
+}
+
+#about p {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+#about-tabela {
+    margin-left: auto;
+    margin-right: auto;
+}
+#about-tabela td {
+    background-color: rgba(168, 168, 168, 0.856);
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+#about-tabela td.ce {
+    color: white;
+    background-color: rgb(0, 38, 66);
+    vertical-align: top;
+    font-weight: bold;
+}
+#about-tabela td.cd {
+    color: black;
+}
+#about-tabela caption {
+    color: white;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+#about-tabela caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
