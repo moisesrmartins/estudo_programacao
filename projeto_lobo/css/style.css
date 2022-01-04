@@ -177,3 +177,47 @@ h2 {
     font-size: 8pt;
     margin-top: 10px;
 }
+
+/* Skills */
+
+#skills {
+    margin-top: -100px;
+    background-color: white;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#skills .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container {
+    flex: 2 2 2;
+    text-align: center;
+    padding: 60px 25px;        
+}
+
+.skills-container h3 {
+    color: rgb(0, 38, 66);
+    font-size: 20px;
+}
+
+.skills-container img {
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.skills-container .subtitle {
+    font-weight: bold;
+    color: rgb(0, 38, 66);
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.skills-container p {
+    line-height: 25px;
+}
