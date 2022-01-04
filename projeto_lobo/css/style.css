@@ -54,3 +54,73 @@ h2 {
     text-decoration: none;
     color: black;
 }
+
+/* Banner */
+
+#banner {
+    height:  100vh;
+    background-image: url('../fotos/lobo_fim.jpg');
+    background-size: cover;
+    padding-top: 2vh;
+}
+
+#banner-info {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: black;
+    padding: 30px;
+}
+
+#banner-info img {
+    height: 110px;
+    border-radius: 50%;
+    background-color: rgb(0, 38, 66);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#banner-info p {
+    background-color: rgb(0, 38, 66);
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+}
+
+#banner .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner-container {
+    flex: 2 2 2;
+    text-align: center;
+    padding: 25px 25px;        
+}
+
+.banner-container h2 {
+    color: rgb(0, 38, 66);
+    font-size: 20px;
+}
+
+.banner-container img {
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.banner-container .subtitle {
+    font-weight: bold;
+    color: rgb(0, 38, 66);
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.banner-container p {
+    line-height: 25px;
+}
