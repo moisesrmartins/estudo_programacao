@@ -310,4 +310,43 @@ h2 {
 #links-fotos #Foto03:hover {
     background-position: 0px 0px;
     background-size: 200px 200px;
+
+} 
+/* footer */
+
+footer {
+    padding: 50px 0;
+    background-color: rgb(0, 38, 66);
+    color: white;
+    text-align: center;
+}
+
+footer img {
+    height: 110px;
+    border-radius: 50%;
+    background-color: rgb(0, 38, 66);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer p {
+    margin-top: 25px;
+}
+
+footer form {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input, footer textarea, footer button {
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+footer .detail {
+    font-weight: bold;
 }
