@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Comeco */
+
+* {
+    margin: 0;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+h2 {
+    font-size: 30px;
+}
