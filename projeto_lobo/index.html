@@ -111,40 +111,40 @@
         </section>
 <!--Links-->
         <section id="Links">
-            <h2>Onde me encontrar:</h2>
-            <p>Abaixo estão os links onde você pode me encontrar e ver meu trabalho.</p>
+            <h2 style="text-align: center">Onde me encontrar:</h2>
+            <p style="text-align: center">Abaixo estão os links onde você pode me encontrar e ver meu trabalho.</p>
 
-            <ul>
-                <li><span>Facebook</span></li>
+            <ul id="links-fotos">
+                <li id="Foto01"><a class="links-box proj1" href="https://www.facebook.com/moises.r.martins.9/" target="blank"><div style="text-align: center"></div><span>Facebook</span></a></li>
 
-                <li><span>Instagram</span></li>
+                <li id="Foto02"><a class="links-box proj2" href="https://www.instagram.com/moisesr.martins/?hl=pt-br" target="blank"><div style="text-align: center"></div><span>Instagram</span></a></li>
 
-                <li><span>GitHub</span></li>
+                <li id="Foto03"><a class="links-box proj3" href="https://github.com/moisesrmartins" target="blank"><div style="text-align: center"></div><span>Github</span></a></li>
             </ul>
         </section>
 
         <footer>
-            <h2>Me mande uma mensagem</h2>
-            <p>Caso esteja faltando alguma informação a respeito ou se gostaria que fosse falado de algum outro animal, me mande uma mensagem para conversarmos sobre o assunto.</p>
+            <h2 style="text-align: center">Me mande uma mensagem</h2>
+            <p  style="text-align: center">Caso esteja faltando alguma informação a respeito ou se gostaria que fosse falado de algum outro animal, me mande uma mensagem para conversarmos sobre o assunto.</p>
             <img src="fotos/lobo1.jpg" alt="lobo1 "/>
 
             <form>
-                <label>Nome Completo:</label>
+                <label for="txtNomeCompleto">Nome Completo:</label>
                 <p>
-                    <input>
+                    <input id="txtNomeCompleto" type="text" placeholder="Coloque seu Nome Completo">
                 </p>
-                <label>Email:</label>
+                <label for="txtEmail">Email:</label>
                 <p>
-                    <input>
+                    <input id="txtEmail" type="email" placeholder="Coloque seu email">
                 </p>
-                <label>Mensagem:</label>
+                <label for="txtmensagem">Mensagem:</label>
                 <p>
-                    <textarea></textarea>
+                    <textarea id="txtmensagem" placeholder="Escreva sobre qual assunto deseja conversar" cols="30" rows="10"></textarea>
                 </p>
 
-                <button>Enviar</button>
+                <button type="submit">Enviar</button>
             </form>
-            <div>Copyright 2021 - by Moisés Rodrigues Martins</div>
+            <div style="text-align: right">Copyright &copy; 2021 - by Moisés Rodrigues Martins</div>
         </footer>
     </body>
 </html>
