@@ -10,3 +10,47 @@
 h2 {
     font-size: 30px;
 }
+
+/* Navbar */
+
+#navbar {
+    background-color: rgb(0, 38, 66);
+    color: white;
+    padding: 0 15px;
+    height: 150px;
+    text-align: center;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
+    display: inline-block;
+}
+
+#navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar img {
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    height: 120px;
+}
+
+#navbar nav{
+    float: right;
+}
+
+#navbar ul {
+    margin-top: 22px
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color: black;
+}
