@@ -5,17 +5,35 @@ class Calculator {
         this.clear()
     }
 
-    clear() {}
+    clear() {
+        this.currentOperandTextElement= ''
+        this.previousOperandTextElement= ''
+        this.operation= undefined
+    }
 
     delete() {}
 
-    appendNumber(number) {}
+    appendNumber(number) {
+        if (number === '.' && this.currentOperand.includes('.')) return
+        this.currentOperand= this.currentOperand.toString() + number.toString()
+    }
 
-    chooseOperations(operation) {}
+    chooseOperations(operation) {
+        if (this.currentOperand == '') return
+        if (this.previousOperand !== '') {
+            this.compute()
+        }
+        this.operation= operation
+        this.previousOperand= this.currentOperand
+        this.currentOperand= ""
+    }
 
     compute() {}
 
-    updateDisplay() {}
+    updateDisplay() {
+        this.currentOperandTextElement.innerText= this.currentOperand
+        thispreviousOperandTextElement.innerText= this.previousOperand
+    }
 }
 
 const numberButtons= document.querySelectorAll('[data-number]')
@@ -31,6 +49,13 @@ const Calculator= new Calculator(previousOperandTextElement, currentOperandTextE
 numberButtons.forEach(button => {
     button.addEventListener('click', () => {
         calculator.appendNumber(button.innerText)
+        calculator.updateDisplay()
+    })
+})
+
+operationButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        calculator.appendOperation(button.innerText)
         calculator.updateDisplay()
     })
 })
