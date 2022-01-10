@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 /* Comeco*/
 
 *, *::before, *::after {
@@ -21,8 +19,8 @@ body {
     justify-content: center;
     align-content: center;
     min-height: 100vh;
-    grid-template-columns: repeat(4,100px);
-    grid-template-rows: minmax(120px, auto) repeat(5,100px);
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
 .calculator-grid > button {
@@ -53,7 +51,12 @@ body {
     word-break: break-all;
 }
 
-.output .current-operand {
+.output .previous-operand {
     color: white;
     font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: white;
+    font-size: 2.5rem;
 }
